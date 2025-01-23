@@ -1,0 +1,26 @@
+   # .gitignore
+
+   # Python
+   __pycache__/
+   *.pyc
+   *.pyo
+   *.pyd
+   *.db
+   *.sqlite3
+
+   # Environment
+   .env
+   .venv
+   env/
+   venv/
+   ENV/
+   env.bak/
+   venv.bak/
+
+   # IDE
+   .vscode/
+   .idea/
+
+   # System
+   .DS_Store
+   Thumbs.db
