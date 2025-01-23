@@ -9,39 +9,44 @@ This project aims to predict stock price trends for Tesla, GE, Apple, and Nvidia
    git clone https://github.com/DhawalArora/Stock-Price-Prediction-CNN-BiLSTM-MTST.git
 
 
-Install the required libraries:
+2. Install the required libraries:
+    ```bash
     pip install -r requirements.txt
 
-Run the scripts:
+4. Run the scripts:
 
   - data_preprocessing.py: Preprocess the stock data.
+     ```bash
+     python data_preprocessing.py
 
   - model_training.py: Train the CNN-BiLSTM and MTST models.
+     ```bash
+     python model_training.py
 
   - evaluation.py: Evaluate the models and generate results.
+     ```bash
+     python evaluation.py
 
-Results
+## Results
 Figure 1: Predicted vs. Actual Stock Prices.
 
-Table 1: Performance Metrics (MAPE, RMSE, Cumulative Returns
+Table 1: Performance Metrics (MAPE, RMSE, Cumulative Returns)
 
 
 ---
 
-### **Step 6: Push to GitHub**
-1. **Create a New Repository** on GitHub (as explained earlier).
-2. **Upload the Files**:
-   - `data_preprocessing.py`
-   - `model_training.py`
-   - `evaluation.py`
-   - `requirements.txt`
-   - `README.md`
-3. **Commit and Push** the files to GitHub.
+## Repository Structure
+data_preprocessing.py: Downloads, cleans, and preprocesses stock data.
 
+model_training.py: Builds and trains the CNN-BiLSTM and MTST models.
+
+evaluation.py: Evaluates the models and generates visualizations.
+
+requirements.txt: Lists the required Python libraries.
+
+README.md: Explains the project and how to run the code.
 ---
 
-### **Next Steps**
-1. **Run the Code**: Test the scripts in Google Colab or your local environment.
-2. **Generate Results**: Create graphs and tables for your report.
-3. **Draft the Report**: Use the results to write your project proposal.
-
+#Contributors
+Dhawal Arora
+Pang Chern Hong
