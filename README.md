@@ -35,13 +35,12 @@ Table 1: Performance Metrics (MAPE, RMSE, Cumulative Returns)
 ---
 
 ## Repository Structure
-data_preprocessing.py: Downloads, cleans, and preprocesses stock data.
+- data_preprocessing.py: Downloads, cleans, and preprocesses stock data.
+- model_training.py: Builds and trains the CNN-BiLSTM and MTST models.
+- evaluation.py: Evaluates the models and generates visualizations.
+- requirements.txt: Lists the required Python libraries.
+- README.md: Explains the project and how to run the code.
 
-model_training.py: Builds and trains the CNN-BiLSTM and MTST models.
-
-evaluation.py: Evaluates the models and generates visualizations.
-
-requirements.txt: Lists the required Python libraries.
 
 README.md: Explains the project and how to run the code.
 ---
