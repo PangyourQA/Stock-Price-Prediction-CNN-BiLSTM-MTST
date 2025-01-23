@@ -1,4 +1,3 @@
-This file explains the project and how to run the code.
 # Stock Price Prediction using CNN-BiLSTM and MTST Models
 
 ## Project Overview
@@ -7,7 +6,7 @@ This project aims to predict stock price trends for Tesla, GE, Apple, and Nvidia
 ## Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/DhawalArora/Stock-Price-Prediction-CNN-BiLSTM-MTST.git# Stock-Price-Prediction-CNN-BiLSTM-MTST
+   git clone https://github.com/DhawalArora/Stock-Price-Prediction-CNN-BiLSTM-MTST.git
 
 
 Install the required libraries:
